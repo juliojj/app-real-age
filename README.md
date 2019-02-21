@@ -50,7 +50,9 @@ where, in "source_code" you have the python files, and within "data" you have th
 After training, you can optionally run the code (without training) to make predictions as:<br>
 <b>python vgg16_app-real-age_fg2019.py ../data/ False 2 1e-4 32 1500 1e-4</b>
 
->Note that results reported in the paper were generated after the 2 stages training (using the above parameters). You have to run stage 1 and then stage 2 to reproduce the results.
+><b>Note:</b> results reported in the paper were generated after the 2 stages training (using the above parameters). You have to run stage 1 and then stage 2 to reproduce the results.
+
+><b>Important note:</b> during training, the model might suffer from "vanishing gradients" due to initialization procedures of the new layers. If you observe the network is not learning during the first epochs, restart training. Another option can be to reduce batch size.
 
 Parameters are defined as: [data_patch, train_model (bool), stage_num, lr (current), batch_size, epochs, lr (stage 1)]
 
