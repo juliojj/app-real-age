@@ -52,6 +52,6 @@ After training, you can optionally run the code (without training) to make predi
 
 >Note that results reported in the paper were generated after the 2 stages training (using the above parameters). You have to run stage 1 and then stage 2 to reproduce the results.
 
-Parameters are defined as: [data_patch, train_model (bool), stage_num, lr_1 (stage 1), batch_size, epochs, lr_2 (stage 2)]
+Parameters are defined as: [data_patch, train_model (bool), stage_num, lr (current), batch_size, epochs, lr (stage 1)]
 
 >The <b>pre-trained model</b> (stage 2), used to generate the results reported in the paper can be downloaded <a href="http://158.109.8.102/AppaRealAgeFG19/vgg16_app-real-age_fg2019_stage_2_st1-lr_0.0001_st2-lr_0.0001.hdf5">here</a>. You can copy it into the 'best_models' directory and make predictions on the test set without the need of doing the training.
