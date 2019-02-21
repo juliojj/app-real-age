@@ -1,20 +1,21 @@
 # Short description
 This source code was used to generate the results of the paper 
 <b>"On the effect of age perception biases for real age regression"</b>, accepted in the 
-14th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2019).
+14th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2019). 
 <center><img src="http://158.109.8.102/AppaRealAgeFG19/fg-2019.jpg"></center>
 
 # Citation
-In case you use this code, please cite the reference paper as:
+In case you use this code, please cite the reference paper (<a href="https://arxiv.org/abs/1902.07653">arXiv link</a>) as:
 
 @inproceedings{jacques:FG2019,<br>
  author={Julio C. S. Jacques Junior and Cagri Ozcinar and Marina Marjanovic
          and Xavier Baro and Gholamreza Anbarjafari and Sergio Escalera},<br>
  booktitle={IEEE International Conference on Automatic Face and Gesture
             Recognition (FG)},<br>
- title={On the effect of age perception biases for real age regression},
+ title={On the effect of age perception biases for real age regression},<br>
  year={2019},<br>
- }
+ }<br>
+ 
 
 # Tested on
 - Linux Ubuntu 16.04.2 LTS
