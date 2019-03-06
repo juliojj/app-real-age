@@ -54,6 +54,6 @@ After training, you can optionally run the code (without training) to make predi
 
 ><b>Important note:</b> during training, the model might suffer from "vanishing gradients" due to initialization procedures of the new layers. If you observe the network is not learning during the first epochs, restart training. Another option can be to reduce batch size.
 
-Parameters are defined as: [data_patch, train_model (bool), stage_num, lr (current), batch_size, epochs, lr (stage 1)]
+Parameters are defined as: [data_path, train_model (True|False), stage_num (1|2), lr (current), batch_size, epochs, lr (stage 1)]
 
 >A <b>pre-trained model</b> (stage 2), which gives slightly better results than those reported in the paper, can be downloaded <a href="http://158.109.8.102/AppaRealAgeFG19/vgg16_app-real-age_fg2019_stage_2_st1-lr_0.0001_st2-lr_0.0001.hdf5">here</a>. You can copy it into the 'best_models' directory and make predictions on the test set without the need of doing the training.
