@@ -2,7 +2,7 @@
 This source code was used to generate the results of the paper 
 <b>"On the effect of age perception biases for real age regression"</b>, accepted in the 
 14th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2019). 
-<center><img src="https://drive.google.com/open?id=1kDZSxETiuCpf-znbeVuYAL1MCLjcR5g9"></center>
+<center><img src="https://www.dropbox.com/s/rb6luvh3bsoy0k2/fg-2019.jpg?dl=0"></center>
 
 # Citation
 In case you use this code, please cite the reference paper (<a href="https://arxiv.org/abs/1902.07653">arXiv link</a>) as:
@@ -56,4 +56,4 @@ After training, you can optionally run the code (without training) to make predi
 
 Parameters are defined as: [data_path, train_model (True|False), stage_num (1|2), lr (current), batch_size, epochs, lr (stage 1)]
 
->A <b>pre-trained model</b> (stage 2), which gives slightly better results than those reported in the paper, can be downloaded with the pre-processed data, as mentioned above. You can copy it into the 'best_models' directory and make predictions on the test set without the need of doing the training.
+>A <b>pre-trained model</b> (stage 2), which gives slightly better results than those reported in the paper, can be <a href="https://drive.google.com/file/d/1KF_eq_-1uv1zHCCpiNTM00h3APuShLbf/view?usp=sharing">downloaded</a> with the pre-processed data, as mentioned above. You can copy it into the 'best_models' directory and make predictions on the test set without the need of doing the training.
