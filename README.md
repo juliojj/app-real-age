@@ -2,7 +2,7 @@
 This source code was used to generate the results of the paper 
 <b>"On the effect of age perception biases for real age regression"</b>, accepted in the 
 14th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2019). 
-<center><img src="https://www.dropbox.com/s/rb6luvh3bsoy0k2/fg-2019.jpg?dl=0"></center>
+<center><img src="https://www.dropbox.com/s/rb6luvh3bsoy0k2/fg-2019.jpg?raw=1"></center>
 
 # Citation
 In case you use this code, please cite the reference paper (<a href="https://arxiv.org/abs/1902.07653">arXiv link</a>) as:
